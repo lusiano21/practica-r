@@ -1,12 +1,12 @@
-import ItemisContainer from "./components/itemisContainer";
 import Navbar from "./components/Navbar";
+import Helados from "./components/container/Helados";
 const App = () => {
   return(
     <div>
     <Navbar />
-    <h1>Heladria</h1>
-    <h2>Bienvenido</h2>
-    <ItemisContainer h1="Chocolate" h2="Vainilla" nombre="Juan" />
+    <h1>Heladria Bienvenido</h1>
+    <h2> Elije cualquier gusto </h2>
+    <Helados/>
     </div> 
   )
 }
