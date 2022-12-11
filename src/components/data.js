@@ -1,0 +1,33 @@
+export const data = [
+{
+id:1,
+nombre:"Vainilla",
+img:"",
+precio:"450",
+rate:2,
+stock:"50" 
+},
+{
+id:2,
+nombre:"Chocolate",
+img:"",
+precio:"450",
+rate:4,
+stock:"50"
+},
+{
+id:3,
+nombre:"Frutilla",
+img:"",
+precio:"450",
+rate:6,
+stock:"50" 
+},
+{
+id:4,
+nombre:"Menta granizada",
+img:"",
+precio:"450",
+rate:9,
+stock:"50"}
+]

@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Helados from "./components/container/Helados";
+import Helados from "./container/Helados";
 const App = () => {
   return(
     <div>
@@ -8,7 +8,7 @@ const App = () => {
     <h2> Elije cualquier gusto </h2>
     <Helados/>
     </div> 
-  )
+  );
 }
 
 export default App;
