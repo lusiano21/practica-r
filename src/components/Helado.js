@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-const Helado = ({nombre,img,precio,stock,rate}) => {
+const Helado = ({id,nombre,deleteItem,img,precio,stock,rate}) => {
   const [like,setLike] = useState(rate);
   
   const rateVideo = () =>{
     setLike(like + 1)
   }
+  
     return(
       <div>
         <div>
@@ -14,8 +15,9 @@ const Helado = ({nombre,img,precio,stock,rate}) => {
         <div>
           <h3>{nombre}</h3>
           <p>${precio} kg</p>
+          <p>{stock} kg</p>
           <span>{like}</span> |<button onClick={rateVideo}>Me encanta</button>
-          <h3>{stock} kg</h3>
+          <button onClick={() => deleteItem(id)}>No me gusta</button>
         </div>
       </div> 
     );
