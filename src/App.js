@@ -6,8 +6,7 @@ const App = () => {
   return(
     <BrowserRouter>
     <Navbar /> 
-    <h1>Heladria Bienvenido</h1>
-    <h2> Elije cualquier gusto </h2>
+    <h1>Heladeria Bon gust</h1>
     <Routes>
       <Route path="/" element={<Helados/>}/>
       <Route path="/gustos/:idGustos" element={<Helados/>}/>

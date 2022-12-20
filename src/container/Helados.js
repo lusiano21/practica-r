@@ -24,9 +24,10 @@ const Helados = () => {
      setDatos(newData)
     }
     return (
-        <>
-        {
+        <div className="row">           
+             {
             datos.map(item => ( 
+            <div className="col-md-4">
                 <Helado
                 key={item.id}
                 id={item.id}
@@ -37,10 +38,10 @@ const Helados = () => {
                 rate={item.rate}
                 stock={item.stock}
                 />
-
+            </div>
             ))
-        }
-        </>
+        }      
+        </div>
     );
 }
 export default Helados;

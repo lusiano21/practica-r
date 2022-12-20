@@ -8,16 +8,16 @@ const Helado = ({id,nombre,deleteItem,img,precio,stock,rate}) => {
   }
   
     return(
-      <div>
+      <div className="card">
         <div>
           <img src={img} alt="imagen" />
         </div> 
-        <div>
-          <h3> <Link to={`/sabores/${id}`}>{nombre}</Link></h3>
+        <div className="card-body">
+          <h3 className="card-title"> <Link to={`/sabores/${id}`}>{nombre}</Link></h3>
           <p>${precio} kg</p>
           <p>{stock} kg</p>
-          <span>{like}</span> |<button onClick={rateVideo}>Me encanta</button>
-          <button onClick={() => deleteItem(id)}>No me gusta</button>
+          <span>{like}</span> |<button className="btn btn-outline-secondary" onClick={rateVideo}>Me encanta</button>
+          <button className="btn btn-outline-secondary" onClick={() => deleteItem(id)}>No me gusta</button>
         </div>
       </div> 
     );

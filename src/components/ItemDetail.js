@@ -1,10 +1,10 @@
 const ItemDetail = ({item}) => {
     return(
-    <div>
-    <div>
-      <img src={item.imgs} alt="imagen" />
+    <div className="card">
+    <div className="card-body">
+      <h3 className="card-title">{item.nombre}</h3>
+      <img src={item.imgs} alt="imagen" /><p className="card-text">{item.info}</p>
     </div> 
-    <p>{item.info}</p>
     </div>
    
     );
