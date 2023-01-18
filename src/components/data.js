@@ -30,7 +30,7 @@ rate:6,
 categoria:2,
 stock:"50",
 info:"El helado de fresa es un helado hecho con fresa o sus correspondientes saborizantes. Está hecho a partir de la mezcla de la fresa con huevos, crema, vainilla y azúcar.​ La mayoría de helados de fresa tienen un color rosado o rojo pastel. Esta variedad de helado data de antes de 1813, fecha en la que empezó a ser servido durante la guerra anglo-estadounidense.​ Junto con la vainilla y el chocolate, la fresa es uno de los tres sabores del helado napolitano. Los sándwiches de helado preparados al estilo napolitano incluyen helado de fresa.",
-imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462955/Frutilla_drqf7m.jpg",
+imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462955/Frutilla_drqf7m.jpg"
 },
 {
 id:4,
@@ -41,7 +41,7 @@ rate:9,
 categoria:1,
 stock:"50",
 info:"Según su visión, a ese dulce debería sumársele un amargo que contraste el gusto, que transporte a una experiencia completamente distinta al llevárselo a la boca. Así, sin más, puso manos a la obra y con el apoyo de la compañía y un celoso silencio sobre lo que se estaba creando, luego de varias pruebas y errores llegó a esas tabletas chicas de chocolate amargo rellenas de crema de menta, presentadas en sobres individuales, que salieron a la venta en 1962.",
-imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462956/Menta_nmie5e.webp",
+imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462956/Menta_nmie5e.webp"
 },
 {
     id:5,
@@ -63,6 +63,6 @@ imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v167146295
     categoria:2,
     stock:"50",
     info:"Los helados caseros son una excelente manera de aprovechar la fruta y sus nutrientes de forma muy sencilla y económica.Hoy día, gracias a las diversas técnicas de elaboración y a su composición nutritiva, los helados se pueden adaptar a todos los gustos (variedad de sabores, colores, texturas, ingredientes…) e incluso a necesidades especiales de algunas personas (helados apropiados en caso de diabetes, bajos en calorías para quienes necesitan cuidar su peso…).",
-    imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462955/Limon_objjzt.jpg",
+    imgs:"https://res.cloudinary.com/dees2z2uf/image/upload/c_scale,w_400/v1671462955/Limon_objjzt.jpg"
 }
 ]
