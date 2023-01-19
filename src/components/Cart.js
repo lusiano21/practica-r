@@ -47,11 +47,12 @@ const Cart = () => {
             <h1>Tu carta</h1>
             <Link to='/'><button className="btn btn-outline-secondary">Helados</button></Link>
            
-            <div class="card " >
+            <div class="row" >
+                <div class="col-md-4">
                 {
                     cartList.length > 0 &&
                     cartList.map(item =>
-                        <div class="card col-8">
+                        <div class=" card ">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src={item.img} alt="" />
@@ -60,7 +61,8 @@ const Cart = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">{item.nombre}</h5>
                                         <p class="card-text">cantidad: {item.qty}kg</p>
-                                        <p class="card-text">precio:${calcTotalPerItem(item.id)}</p>
+                                        <p class="card-text">precio: ${item.precio}</p>
+                                        <p class="card-text">subtotal:${calcTotalPerItem(item.id)}</p>
                                         <button className="btn btn-outline-secondary" onClick={() => deleteThis(item.id)}>Borrar</button>
                                     </div>
                                 </div>
@@ -68,10 +70,10 @@ const Cart = () => {
                         </div>)
 
                 }
-            
+    </div>
             {
                 cartList.length > 0 &&
-                <div class="card " >
+                <div class="card col-md-4" >
                     <div class="card-header">
                         Factura
                     </div>
@@ -80,7 +82,7 @@ const Cart = () => {
                     <button className="btn btn-outline-secondary" onClick={createOrder}>Comprar</button>
                 </div>
             }
-            </div>
+           </div>
         </>
     );
 }

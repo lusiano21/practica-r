@@ -17,7 +17,8 @@ const ItemDetail = ({ item }) => {
       <div className="card-body">
         <h3 className="card-title">{item.nombre}</h3>
         <img src={item.imgs} alt="imagen" /><p className="card-text">{item.info}</p>
-        <p> {item.stock}kg </p>
+        <p class="card-text"> {item.stock}kg </p>
+        <p class="card-text">precio: ${item.precio}</p>
         {
           itemCount === 0
             ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
